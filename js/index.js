@@ -74,5 +74,5 @@ document.querySelector("#agregar-btn").addEventListener("click", ()=>{
     
     pedidos.push(pedido);
     cargarTabla();
-    Swal.fire("Pokemon Agregado", "Resultado Exitoso", "info" );
+    Swal.fire("Pedido Agregado", "Resultado Exitoso", "info" );
 });
